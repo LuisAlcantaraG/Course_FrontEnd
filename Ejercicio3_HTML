@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 02/2 - Tablas en HTML</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Titulo</th>
+                <td>Harry Potter: Prisioner of Azkaban</td>
+            <th>Autor</th>
+                <td>J.k. Rowling</td>
+            <th>Año de publicacion</th>
+                <td>8 de Julio de 1999</td>
+            <th>Enlace de Amazon</th>
+                <td><a href="https://www.amazon.com.mx/Harry-Potter-prisionero-Azkaban-Rowling/dp/6073193912/ref=asc_df_6073193912/?tag=gledskshopmx-20&linkCode=df0&hvadid=450960426479&hvpos=&hvnetw=g&hvrand=2622044212404969489&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9047093&hvtargid=pla-1069625723999&psc=1">Harry Potter: Prisioner of Azkaban</a></td>
+        </tr>
+        <tr>
+            <th>Titulo</th>
+                <td>Hunger Games: Sinsajo</td>
+            <th>Autor</th>
+                <td>Suzanne Collins</td>
+            <th>Año de publicacion</th>
+                <td>24 de agosto de 2010</td>
+            <th>Enlace de Amazon</th>
+                <td><a href="https://www.amazon.com/-/es/Suzanne-Collins/dp/8427202148">Hunger Games: Sinsajo</a></td>
+        </tr>
+        <tr>
+            <th>Titulo</th>
+                <td>El codigo DaVinci</td>
+            <th>Autor</th>
+                <td>Dan Brown</td>
+            <th>Año de publicacion</th>
+                <td>18 de marzo de 2003</td>
+            <th>Enlace de Amazon</th>
+                <td><a href="https://www.amazon.com.mx/El-Código-Vinci-Dan-Brown/dp/8408095331/ref=asc_df_8408095331/?tag=gledskshopmx-20&linkCode=df0&hvadid=295470511323&hvpos=&hvnetw=g&hvrand=1493180165905785071&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9047093&hvtargid=pla-433519019691&psc=1">El codigo Da Vinci</a></td>
+        </tr>
+    </table>
+</body>
+</html>
