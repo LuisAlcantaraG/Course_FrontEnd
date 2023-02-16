@@ -17,7 +17,7 @@
     color: white;
 }
 
-.boton:hover::after{
+.boton:hover::before{
     content: 'HECHO';
     font-size: 20px;
 }
