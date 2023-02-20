@@ -1,0 +1,38 @@
+:root{
+    --color-uno: #DB2B39;
+    --color-dos: #F5ECCD;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+}
+
+.contenedor{
+    background-color: var(--color-uno);
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    padding: 20px;
+    gap: 40px;
+}
+
+.item{
+    color: var(--color-dos);
+}
+
+.principal{
+    flex-grow: 1;
+    font-size: 3rem;
+}
+
+@media (min-width: 640px){
+    body{
+        flex-direction: column-reverse;
+    }
+
+    .contenedor{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
